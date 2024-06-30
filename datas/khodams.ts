@@ -28,7 +28,7 @@ export const khodams = [
   "Pisang Goreng",
   "Jenglot Nyasar",
   "Genderuwo Gaul",
-  "Pecel Lele",
+  "Tengkulak Eskrim",
   "Bebek Angsa",
   "Hantu Jeruk Purut",
   "Kuntilanak Centil",
