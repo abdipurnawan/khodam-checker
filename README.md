@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Khodam Checker
 
-## Getting Started
+A whimsical web application that lets you discover your unique "khodam" (spiritual companion) with a fun twist.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Khodam Checker is a lighthearted project that combines Indonesian folklore with modern web technology. It's designed to bring a smile to your face by assigning you a quirky and often hilarious spiritual companion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Random khodam generator
+- Unique and funny khodam names
+- Sleek and responsive UI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- Next.js for a fast and efficient React framework
+- Aceternity UI for beautiful, ready-to-use components
+- Tailwind CSS for styling
 
-To learn more about Next.js, take a look at the following resources:
+## Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is purely for entertainment purposes. It's a playful take on the concept of spiritual companions, mixing traditional beliefs with modern humor. Whether you're assigned a "Flying Cockroach" or a "Stylish Ghost", remember it's all in good fun!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Disclaimer
 
-## Deploy on Vercel
+No actual spiritual beings were harmed in the making of this application. Any resemblance to real khodams, living or dead, is purely coincidental.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Try It Out
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visit [insert your deployed URL here] to find out what kind of wacky khodam you might have!
+
+## Contribute
+
+Feel free to contribute your own funny khodam ideas or improvements to the project. Let's keep the humor flowing!
