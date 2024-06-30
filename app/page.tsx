@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Card className="w-fit">
       <div className="flex flex-col gap-5 lg:gap-9">
-        <h1 className="md:text-2xl text-xl lg:text-3xl font-bold text-center text-white relative z-20 whitespace-nowrap">
+        <h1 className="text-2xl lg:text-3xl font-bold text-center text-white relative z-20 whitespace-nowrap">
           Cek Khodam Kamu
         </h1>
         <div className="space-y-2">
