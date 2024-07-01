@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Check Your Khodam",
   description: "Check your khodam with this simple app, made by @abdipurnawan",
+  creator: 'Abdi Purnawan',
+  authors: {
+    name: 'Abdi Purnawan',
+    url: 'https://abdipurnawan.com'
+  },
 };
 
 export default function RootLayout({
