@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { Spotlight } from "@/components/ui/spotlight";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Check Your Khodam",
   description: "Check your khodam with this simple app, made by @abdipurnawan",
-  creator: 'Abdi Purnawan',
+  creator: "Abdi Purnawan",
   authors: {
-    name: 'Abdi Purnawan',
-    url: 'https://abdipurnawan.com'
+    name: "Abdi Purnawan",
+    url: "https://abdipurnawan.com",
   },
 };
 
@@ -23,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <div className="h-screen relative w-full bg-black flex flex-col items-center justify-center overflow-hidden">
           <div className="w-full absolute inset-0 h-screen">
             <SparklesCore
@@ -41,6 +47,15 @@ export default function RootLayout({
             fill="white"
           />
           {children}
+          <div className="absolute bottom-5 mx-auto text-white hover:text-gray-100">
+            Made with ❤️ by
+            <Link
+              href="https://abdipurnawan.com"
+              className="ml-1 font-semibold hover:underline"
+            >
+              Abdi Purnawan
+            </Link>
+          </div>
         </div>
       </body>
     </html>
